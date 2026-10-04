@@ -1,0 +1,12 @@
+# a full day eating time table
+time = int(input("enter a time: "))
+
+if time == 8:
+   print("time for break fast")
+elif time == 1:
+   print("time for lunch")
+elif time == 8:
+   print("time for dinner")
+
+else :
+   print("it's not a time to eat")
